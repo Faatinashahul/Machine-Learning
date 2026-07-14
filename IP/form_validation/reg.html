@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Registration Form</title>
+    <style>
+        body {
+            background-image: url(background.png);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h2 style="color:rgb(15, 99, 130); text-align:center; padding-top:50px;">
+    ONLINE REGISTRATION FORM
+</h2>
+
+<div class="form-group">
+    <h2 style="color: rgb(9, 181, 181); text-align:center;">
+        Register here
+    </h2>
+
+    <form id="registration-form" autocomplete="on">
+
+        <!-- Salutation -->
+        <div class="field">
+            <label>Salutation</label>
+
+            <div class="radio-group">
+                <input type="radio" name="sal" value="Mr"> Mr
+                <input type="radio" name="sal" value="Ms"> Ms
+                <input type="radio" name="sal" value="Dr"> Dr
+                <input type="radio" name="sal" value="Mrs"> Mrs
+            </div>
+
+            <span class="msg" id="salmsg"></span>
+        </div>
+
+
+        <!-- Name -->
+        <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="S. Faatina Shahul" required>
+            <span class="msg" id="namemsg"></span>
+
+        </div>
+
+        <!-- Username -->
+        <div class="field">
+            <label for="uname">Username</label>
+            <input list="user-suggestions" id="uname"placeholder="Choose username"  required>
+            <datalist id="user-suggestions">
+                <option value="Admin">
+                <option value="User">
+            </datalist>
+            <span class="msg" id="unamemsg"></span>
+        </div>
+
+        <!-- Password -->
+        <div class="field">
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <span class="msg" id="passmsg"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
+            <span class="msg" id="emailmsg"></span>
+        </div>
+
+        <!-- DOB -->
+        <div class="field">
+            <label for="dob">DOB</label>
+            <input type="date" id="dob"min="1989-01-01" max="2008-12-31" required>
+            <span class="msg" id="dobmsg"></span>
+    
+        </div>
+
+        <!-- Photo -->
+        <div class="field">
+            <label for="photo">Photo</label>
+            <input type="file" id="photo" accept="image/*" required>
+            <span class="msg" id="photomsg"></span>
+        </div>
+
+        <!-- Languages -->
+        <fieldset class="field">
+            <legend>Languages Known</legend>
+            <input type="checkbox" name="lang" value="English" > English
+            <input type="checkbox" name="lang" value="Tamil" > Tamil
+            <input type="checkbox" name="lang" value="German" > German
+            <input type="checkbox" name="lang" value="French" > French
+            <br><br>
+            <input type="checkbox" id="otherLang" ; checkLanguages()"> Others
+
+            <input type="text" id="otherText"placeholder="Specify other language" style="display:none;">
+            <span class="msg" id="langmsg"></span>
+        </fieldset>
+
+        <!-- Expertise -->
+        <div class="field">
+            <label for="expertise">Additional Expertise</label>
+            <input type="text" id="expertise" required>
+            <span class="msg" id="expertisemsg"></span>
+        </div>
+
+        <!-- Buttons -->
+        <button type="submit">Register</button>
+        <button type="reset" onclick="document.getElementById('name').focus()">Clear</button>
+
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
