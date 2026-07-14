@@ -1,0 +1,35 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>Add_to_cart_servlet</servlet-name>
+        <servlet-class>Add_to_cart_servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Add_to_cart_servlet</servlet-name>
+        <url-pattern>/Add_to_cart_servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>View_cart_servlet</servlet-name>
+        <servlet-class>View_cart_servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>View_cart_servlet</servlet-name>
+        <url-pattern>/View_cart_servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Remove_from_cart_servlet</servlet-name>
+        <servlet-class>Remove_from_cart_servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Remove_from_cart_servlet</servlet-name>
+        <url-pattern>/Remove_from_cart_servlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+           
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            width: 300px;
+        }
+        input[type="number"] {
+            width: 50px;
+        }
+        a {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h2>Product List</h2>
+    <form action="Add_to_cart_servlet" method="post">
+        <h3>Laptop - 50000</h3>
+        <input type="hidden" name="name" value="Laptop">
+        <input type="hidden" name="price" value="50000">
+        Quantity:
+        <input type="number" name="quantity" value="1" min="1">
+        <br><br>
+        <input type="submit" value="Add to Cart">
+    </form>
+    <br>
+
+    <form action="Add_to_cart_servlet" method="post">
+        <h3>Mobile - 20000</h3>
+        <input type="hidden" name="name" value="Mobile">
+        <input type="hidden" name="price" value="20000">
+        Quantity:
+        <input type="number" name="quantity" value="1" min="1">
+        <br><br>
+        <input type="submit" value="Add to Cart">
+    </form>
+    <br>
+
+    <form action="Add_to_cart_servlet" method="post">
+        <h3>Headphones - 3000</h3>
+        <input type="hidden" name="name" value="Headphones">
+        <input type="hidden" name="price" value="3000">
+        Quantity:
+        <input type="number" name="quantity" value="1" min="1">
+        <br><br>
+        <input type="submit" value="Add to Cart">
+    </form>
+
+    <br><br>
+    <a href="View_cart_servlet" style="text-decoration: none;">View Cart</a>
+
+</body>
+</html>

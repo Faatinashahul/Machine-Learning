@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADD PAGE</title>
+    </head>
+    <body>
+        <form id="add" method="POST" action="addServlet">
+            NAME :<input type="text" id="bname" name="bname"><br><br>
+            AUTHOR:<input type="text" id="author" name="author"><br><br>
+            YEAR:<input type="text" id="year" name="year"><br><br>
+            <button type="submit">ADD</button>
+
+        </form>
+        <p id="result"></p>
+    </body>
+    <script>
+        document.getElementById("add").addEventListener("submit",function(e){
+            e.preventDefault();
+            var xhr=new XMLHttpRequest();
+            xhr.open("POST","addServlet",true);
+            xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            var bname=document.getElementById("bname").value;
+            var author=document.getElementById("author").value;
+            var year=document.getElementById("year").value;
+            
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4 && xhr.status==200){
+                    document.getElementById("result").innerHTML=xhr.responseText;
+                }
+            }
+            xhr.send("bname="+bname+"&author="+author+"&year="+year);
+        });
+    </script>
+</html>

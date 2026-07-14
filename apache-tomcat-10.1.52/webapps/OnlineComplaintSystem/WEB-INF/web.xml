@@ -1,0 +1,60 @@
+<web-app>
+    <!-- Register Complaint Servlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>
+            RegisterServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <!-- Track Complaint Servlet -->
+    <servlet>
+        <servlet-name>TrackServlet</servlet-name>
+        <servlet-class>
+            TrackServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TrackServlet</servlet-name>
+        <url-pattern>/track</url-pattern>
+    </servlet-mapping>
+
+    <!-- Admin Login Servlet -->
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>
+            AdminLoginServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/adminLogin</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Status Servlet -->
+    <servlet>
+        <servlet-name>UpdateStatusServlet</servlet-name>
+        <servlet-class>
+            UpdateStatusServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStatusServlet</servlet-name>
+        <url-pattern>/updateStatus</url-pattern>
+    </servlet-mapping>
+
+    <!-- Logout Servlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

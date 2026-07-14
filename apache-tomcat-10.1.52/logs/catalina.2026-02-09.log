@@ -1,0 +1,540 @@
+09-Feb-2026 21:37:27.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+0
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+09-Feb-2026 21:37:27.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/faatinashahul/Downloads/apache-tomcat-10.1.52
+09-Feb-2026 21:37:27.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/faatinashahul/Downloads/apache-tomcat-10.1.52
+09-Feb-2026 21:37:27.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/conf/logging.properties
+09-Feb-2026 21:37:27.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2026 21:37:27.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2026 21:37:27.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2026 21:37:27.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/faatinashahul/Downloads/apache-tomcat-10.1.52
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/faatinashahul/Downloads/apache-tomcat-10.1.52
+09-Feb-2026 21:37:27.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/temp
+09-Feb-2026 21:37:27.915 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/faatinashahul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Feb-2026 21:37:27.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 21:37:27.997 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [148] milliseconds
+09-Feb-2026 21:37:28.008 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2026 21:37:28.009 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+09-Feb-2026 21:37:28.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/docs]
+09-Feb-2026 21:37:28.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/docs] has finished in [81] ms
+09-Feb-2026 21:37:28.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/manager]
+09-Feb-2026 21:37:28.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/manager] has finished in [11] ms
+09-Feb-2026 21:37:28.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/examples]
+09-Feb-2026 21:37:28.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/examples] has finished in [69] ms
+09-Feb-2026 21:37:28.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/ROOT]
+09-Feb-2026 21:37:28.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/ROOT] has finished in [6] ms
+09-Feb-2026 21:37:28.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/host-manager]
+09-Feb-2026 21:37:28.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/host-manager] has finished in [6] ms
+09-Feb-2026 21:37:28.185 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 21:37:28.188 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [190] milliseconds
+09-Feb-2026 21:51:38.637 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/faatinashahul/Downloads/apache-tomcat-10.1.52/conf/tomcat-users.xml]
+09-Feb-2026 21:51:38.638 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+09-Feb-2026 21:51:39.140 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+09-Feb-2026 21:51:39.150 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+	java.io.FileNotFoundException: org/apache/catalina/loader/JdbcLeakPrevention.class
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1651)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1594)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1531)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4725)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+09-Feb-2026 21:51:39.666 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+09-Feb-2026 21:51:39.672 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: /Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:255)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1091)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1649)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1594)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1531)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4725)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+	Caused by: java.nio.file.NoSuchFileException: /Users/faatinashahul/Downloads/apache-tomcat-10.1.52/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1432)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:717)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 30 more
+09-Feb-2026 21:51:40.177 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+09-Feb-2026 21:51:40.180 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+	java.io.FileNotFoundException: org/apache/catalina/loader/JdbcLeakPrevention.class
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1651)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1594)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1531)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4725)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+09-Feb-2026 21:51:40.683 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+09-Feb-2026 21:51:40.685 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+	java.io.FileNotFoundException: org/apache/catalina/loader/JdbcLeakPrevention.class
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1651)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1594)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1531)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4725)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+09-Feb-2026 21:51:41.192 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+09-Feb-2026 21:51:41.194 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+	java.io.FileNotFoundException: org/apache/catalina/loader/JdbcLeakPrevention.class
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1651)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1594)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1531)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4725)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+09-Feb-2026 22:05:43.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+09-Feb-2026 22:05:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+09-Feb-2026 22:05:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+09-Feb-2026 22:05:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Feb-2026 22:05:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+09-Feb-2026 22:05:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Feb-2026 22:05:43.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home
+09-Feb-2026 22:05:43.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+0
+09-Feb-2026 22:05:43.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+09-Feb-2026 22:05:43.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:05:43.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/conf/logging.properties
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:05:43.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:05:43.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/temp
+09-Feb-2026 22:05:43.628 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/faatinashahul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Feb-2026 22:05:43.701 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:05:43.707 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1431)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1444)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 13 more
+09-Feb-2026 22:05:43.708 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [140] milliseconds
+09-Feb-2026 22:05:43.719 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2026 22:05:43.719 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+09-Feb-2026 22:05:43.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5]
+09-Feb-2026 22:05:43.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5] has finished in [88] ms
+09-Feb-2026 22:05:43.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs]
+09-Feb-2026 22:05:43.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs] has finished in [8] ms
+09-Feb-2026 22:05:43.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager]
+09-Feb-2026 22:05:43.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager] has finished in [9] ms
+09-Feb-2026 22:05:43.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples]
+09-Feb-2026 22:05:43.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples] has finished in [67] ms
+09-Feb-2026 22:05:43.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT]
+09-Feb-2026 22:05:43.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT] has finished in [5] ms
+09-Feb-2026 22:05:43.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager]
+09-Feb-2026 22:05:43.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager] has finished in [7] ms
+09-Feb-2026 22:05:43.907 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [199] milliseconds
+09-Feb-2026 22:05:43.909 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.Net.bind(Net.java:556)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+09-Feb-2026 22:05:43.909 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:05:43.909 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Feb-2026 22:05:43.915 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:05:43.916 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:09:06.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+0
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:09:06.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/conf/logging.properties
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:09:06.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/temp
+09-Feb-2026 22:09:06.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/faatinashahul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Feb-2026 22:09:06.797 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:09:06.806 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1431)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1444)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 13 more
+09-Feb-2026 22:09:06.807 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [147] milliseconds
+09-Feb-2026 22:09:06.818 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2026 22:09:06.818 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+09-Feb-2026 22:09:06.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5]
+09-Feb-2026 22:09:06.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5] has finished in [97] ms
+09-Feb-2026 22:09:06.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs]
+09-Feb-2026 22:09:06.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs] has finished in [8] ms
+09-Feb-2026 22:09:06.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager]
+09-Feb-2026 22:09:06.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager] has finished in [12] ms
+09-Feb-2026 22:09:06.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples]
+09-Feb-2026 22:09:07.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples] has finished in [71] ms
+09-Feb-2026 22:09:07.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT]
+09-Feb-2026 22:09:07.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT] has finished in [5] ms
+09-Feb-2026 22:09:07.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager]
+09-Feb-2026 22:09:07.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager] has finished in [6] ms
+09-Feb-2026 22:09:07.022 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [214] milliseconds
+09-Feb-2026 22:09:07.024 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.Net.bind(Net.java:556)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+09-Feb-2026 22:09:07.024 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:09:07.024 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Feb-2026 22:09:07.032 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:09:07.032 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:10:01.980 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Feb-2026 22:10:01.981 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:10:01.982 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Feb-2026 22:10:01.983 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:10:01.985 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:10:02.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+09-Feb-2026 22:10:02.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+0
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:10:02.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:10:02.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/conf/logging.properties
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Feb-2026 22:10:02.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:10:02.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:10:02.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/temp
+09-Feb-2026 22:10:02.150 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/faatinashahul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Feb-2026 22:10:02.224 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:10:02.234 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [144] milliseconds
+09-Feb-2026 22:10:02.247 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2026 22:10:02.247 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+09-Feb-2026 22:10:02.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5]
+09-Feb-2026 22:10:02.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5] has finished in [98] ms
+09-Feb-2026 22:10:02.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs]
+09-Feb-2026 22:10:02.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs] has finished in [8] ms
+09-Feb-2026 22:10:02.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager]
+09-Feb-2026 22:10:02.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager] has finished in [12] ms
+09-Feb-2026 22:10:02.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples]
+09-Feb-2026 22:10:02.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples] has finished in [68] ms
+09-Feb-2026 22:10:02.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT]
+09-Feb-2026 22:10:02.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT] has finished in [7] ms
+09-Feb-2026 22:10:02.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager]
+09-Feb-2026 22:10:02.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager] has finished in [5] ms
+09-Feb-2026 22:10:02.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:10:02.454 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [219] milliseconds
+09-Feb-2026 22:12:34.442 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Feb-2026 22:12:34.443 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:12:34.444 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Feb-2026 22:12:34.451 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:12:34.454 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:27:31.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+0
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:27:31.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/conf/logging.properties
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Feb-2026 22:27:31.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:27:31.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/temp
+09-Feb-2026 22:27:31.122 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/faatinashahul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Feb-2026 22:27:31.201 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:27:31.213 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [164] milliseconds
+09-Feb-2026 22:27:31.226 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2026 22:27:31.226 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+09-Feb-2026 22:27:31.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5]
+09-Feb-2026 22:27:31.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5] has finished in [95] ms
+09-Feb-2026 22:27:31.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs]
+09-Feb-2026 22:27:31.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs] has finished in [8] ms
+09-Feb-2026 22:27:31.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager]
+09-Feb-2026 22:27:31.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager] has finished in [10] ms
+09-Feb-2026 22:27:31.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples]
+09-Feb-2026 22:27:31.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples] has finished in [65] ms
+09-Feb-2026 22:27:31.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT]
+09-Feb-2026 22:27:31.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT] has finished in [5] ms
+09-Feb-2026 22:27:31.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager]
+09-Feb-2026 22:27:31.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager] has finished in [5] ms
+09-Feb-2026 22:27:31.420 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:27:31.424 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [211] milliseconds
+09-Feb-2026 22:31:58.437 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Feb-2026 22:31:58.438 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:31:58.439 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Feb-2026 22:31:58.448 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:31:58.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:33:12.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+09-Feb-2026 22:33:12.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+09-Feb-2026 22:33:12.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+09-Feb-2026 22:33:12.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.18+0
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:33:12.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/conf/logging.properties
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Feb-2026 22:33:12.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Feb-2026 22:33:12.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Feb-2026 22:33:12.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Feb-2026 22:33:12.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Feb-2026 22:33:12.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:33:12.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52
+09-Feb-2026 22:33:12.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/temp
+09-Feb-2026 22:33:12.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/faatinashahul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+09-Feb-2026 22:33:12.955 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:33:12.967 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [167] milliseconds
+09-Feb-2026 22:33:12.981 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2026 22:33:12.981 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+09-Feb-2026 22:33:12.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5]
+09-Feb-2026 22:33:13.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ip_5] has finished in [98] ms
+09-Feb-2026 22:33:13.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs]
+09-Feb-2026 22:33:13.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/docs] has finished in [8] ms
+09-Feb-2026 22:33:13.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager]
+09-Feb-2026 22:33:13.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/manager] has finished in [11] ms
+09-Feb-2026 22:33:13.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples]
+09-Feb-2026 22:33:13.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/examples] has finished in [68] ms
+09-Feb-2026 22:33:13.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT]
+09-Feb-2026 22:33:13.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/ROOT] has finished in [5] ms
+09-Feb-2026 22:33:13.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager]
+09-Feb-2026 22:33:13.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/faatinashahul/Desktop/apache-tomcat-10.1.52/webapps/host-manager] has finished in [6] ms
+09-Feb-2026 22:33:13.182 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Feb-2026 22:33:13.186 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [218] milliseconds

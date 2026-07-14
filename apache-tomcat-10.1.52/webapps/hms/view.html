@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        VIEW PAGE
+    </title>
+    <body>
+        <form id="view-page" method="GET" action="viewServlet">
+            ID:<input type="text" id="pid" name="pid" onkeyup="autocomplete">
+            <select id="suggestions" size="5" onkeyclick="display"></select>
+            <br>
+            <br>
+            <button type="submit">DISPLAY</button>
+        </form>
+        <script>
+            function autocomplete(){
+                var input=document.getElementbyId("pid").value;
+                var dropdown=document.getElementbyId("suggestions");
+                if(input==""){
+                    dropdown.innerHTML="";
+                }
+                var xhr=new XMLHttpRequest();
+                xhr.open("GET","autocompleteServlet",true);
+                xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+                xhr.onreadystatechange=function(){
+                    if(xhr.readyState==4 && xhr.status==200){
+                        let data=xhr.responseText.split("\n");
+                        data.forEach(pid=>{
+                            if(pid.trim()!=""){
+                                let options=document.createElement("options");
+                                options.value=pid;
+                                dropdown.add(options);
+                            }
+                        });
+                    }
+                };
+                xhr.send("input="+input)
+            }
+
+            function display(){
+                let dropdown=document.getElementById("suggestions");
+                let selected=dropdown.value;
+                document.getElementById("pid").value=selected;
+
+                window.location.href("viewServlet?input="+selected);
+            }
+        </script>
+    </body>
+</html>
